@@ -1,0 +1,2 @@
+case_timestamp,average_client_throughput_gbit_per_second,average_server_throughput_gbit_per_second,connections_number,thread_number
+2024-10-06_07-15-42,88.93809252941178,88.93683303921568,64,16

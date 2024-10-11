@@ -1,0 +1,33 @@
+SERVER_ADDR=10.0.1.226 THREAD_COUNT=16 CONNECTIONS_PER_THREAD=8 ./build/server &
+SERVER_PID=$!
+sleep 27
+sudo perf record -F 99 -o perf_server.data -g -p $SERVER_PID -- sleep 1
+
+SERVER_ADDR=10.0.1.226 THREAD_COUNT=16 CONNECTIONS_PER_THREAD=8 ./build/client &
+CLIENT_PID=$!
+sleep 27
+sudo perf record -F 99 -o perf_client.data -g -p $CLIENT_PID -- sleep 1
+
+
+
+SERVER_ADDR=10.0.1.226 THREAD_COUNT=16 CONNECTIONS_PER_THREAD=8 ./build/server &
+SERVER_PID=$!
+sleep 27
+sudo perf record -F 99 -o perf_server.data -g -p $SERVER_PID -- sleep 1 &
+PERF_SERVER_PID=$!
+wait $PERF_SERVER_PID
+sudo perf script -i perf_server.data > perf_server.script
+sudo chmod +r *
+echo "Profiling complete."
+
+
+SERVER_ADDR=10.0.1.226 THREAD_COUNT=16 CONNECTIONS_PER_THREAD=8 ./build/client &
+CLIENT_PID=$!
+sleep 27
+sudo perf record -F 99 -o perf_client.data -g -p $CLIENT_PID -- sleep 1 &
+PERF_CLIENT_PID=$!
+wait $PERF_CLIENT_PID
+sudo perf script -i perf_client.data > perf_client.script
+sudo chmod +r *
+echo "Profiling complete."
+

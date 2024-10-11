@@ -1,0 +1,6 @@
+[submodule "libs/spdlog"]
+	path = libs/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "libs/liburing"]
+	path = libs/liburing
+	url = https://github.com/axboe/liburing.git

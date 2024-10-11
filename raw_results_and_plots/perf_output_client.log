@@ -1,0 +1,665 @@
+# started on Fri Sep 27 13:22:59 2024
+
+#           time             counts unit events
+     1.001019670           15404.76 msec task-clock                       #   15.405 CPUs utilized             
+     1.001019670                837      context-switches                 #   54.334 /sec                      
+     1.001019670                  3      cpu-migrations                   #    0.195 /sec                      
+     1.001019670                380      page-faults                      #   24.668 /sec                      
+     1.001019670        32660189708      cycles                           #    2.120 GHz                         (33.29%)
+     1.001019670        38061856166      instructions                     #    1.17  insn per cycle              (33.35%)
+     1.001019670         5844453479      branches                         #  379.393 M/sec                       (50.02%)
+     1.001019670           33770841      branch-misses                    #    0.58% of all branches             (66.69%)
+     1.001019670                         TopdownL1                                                      
+     1.001019670                                                   #     22.6 percent of slots  frontend_bound  (66.71%)
+     1.001019670                                                   #      1.3 percent of slots  bad_speculation  (16.67%)
+     2.002601565           15997.53 msec task-clock                       #   15.998 CPUs utilized             
+     2.002601565                506      context-switches                 #   31.630 /sec                      
+     2.002601565                  0      cpu-migrations                   #    0.000 /sec                      
+     2.002601565                 16      page-faults                      #    1.000 /sec                      
+     2.002601565        34048407810      cycles                           #    2.128 GHz                         (33.31%)
+     2.002601565        39493010317      instructions                     #    1.16  insn per cycle              (33.32%)
+     2.002601565         6048018672      branches                         #  378.060 M/sec                       (50.00%)
+     2.002601565           34830958      branch-misses                    #    0.58% of all branches             (66.66%)
+     2.002601565                                                                                        
+     2.002601565                                                   #     22.4 percent of slots  frontend_bound  (66.69%)
+     2.002601565                                                   #      1.2 percent of slots  bad_speculation  (16.67%)
+     3.004415274           16001.80 msec task-clock                       #   16.002 CPUs utilized             
+     3.004415274                534      context-switches                 #   33.371 /sec                      
+     3.004415274                  0      cpu-migrations                   #    0.000 /sec                      
+     3.004415274                  0      page-faults                      #    0.000 /sec                      
+     3.004415274        34060202210      cycles                           #    2.129 GHz                         (33.34%)
+     3.004415274        39321673045      instructions                     #    1.15  insn per cycle              (33.30%)
+     3.004415274         6031454114      branches                         #  376.924 M/sec                       (49.97%)
+     3.004415274           34720518      branch-misses                    #    0.58% of all branches             (66.63%)
+     3.004415274                                                                                        
+     3.004415274                                                   #     22.3 percent of slots  frontend_bound  (66.66%)
+     3.004415274                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+     4.006057375           15999.60 msec task-clock                       #   16.000 CPUs utilized             
+     4.006057375                515      context-switches                 #   32.188 /sec                      
+     4.006057375                  0      cpu-migrations                   #    0.000 /sec                      
+     4.006057375                  0      page-faults                      #    0.000 /sec                      
+     4.006057375        34027106066      cycles                           #    2.127 GHz                         (33.34%)
+     4.006057375        39333254753      instructions                     #    1.16  insn per cycle              (33.33%)
+     4.006057375         6023667848      branches                         #  376.489 M/sec                       (50.00%)
+     4.006057375           34514634      branch-misses                    #    0.57% of all branches             (66.66%)
+     4.006057375                                                                                        
+     4.006057375                                                   #     22.3 percent of slots  frontend_bound  (66.66%)
+     4.006057375                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+     5.008260563           16007.78 msec task-clock                       #   16.008 CPUs utilized             
+     5.008260563                510      context-switches                 #   31.860 /sec                      
+     5.008260563                  0      cpu-migrations                   #    0.000 /sec                      
+     5.008260563                  0      page-faults                      #    0.000 /sec                      
+     5.008260563        34054736870      cycles                           #    2.127 GHz                         (33.36%)
+     5.008260563        39357650997      instructions                     #    1.16  insn per cycle              (33.32%)
+     5.008260563         6021818629      branches                         #  376.181 M/sec                       (50.00%)
+     5.008260563           34505391      branch-misses                    #    0.57% of all branches             (66.67%)
+     5.008260563                                                                                        
+     5.008260563                                                   #     22.3 percent of slots  frontend_bound  (66.64%)
+     5.008260563                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+     6.009797304           15995.83 msec task-clock                       #   15.996 CPUs utilized             
+     6.009797304                519      context-switches                 #   32.446 /sec                      
+     6.009797304                  0      cpu-migrations                   #    0.000 /sec                      
+     6.009797304                  0      page-faults                      #    0.000 /sec                      
+     6.009797304        34039850025      cycles                           #    2.128 GHz                         (33.31%)
+     6.009797304        39421238989      instructions                     #    1.16  insn per cycle              (33.35%)
+     6.009797304         6037327755      branches                         #  377.431 M/sec                       (50.01%)
+     6.009797304           34411957      branch-misses                    #    0.57% of all branches             (66.69%)
+     6.009797304                                                                                        
+     6.009797304                                                   #     22.3 percent of slots  frontend_bound  (66.69%)
+     6.009797304                                                   #      1.2 percent of slots  bad_speculation  (16.66%)
+     7.011495423           15999.57 msec task-clock                       #   16.000 CPUs utilized             
+     7.011495423                507      context-switches                 #   31.688 /sec                      
+     7.011495423                  0      cpu-migrations                   #    0.000 /sec                      
+     7.011495423                  0      page-faults                      #    0.000 /sec                      
+     7.011495423        34050639707      cycles                           #    2.128 GHz                         (33.34%)
+     7.011495423        39351886551      instructions                     #    1.16  insn per cycle              (33.33%)
+     7.011495423         6037036072      branches                         #  377.325 M/sec                       (50.00%)
+     7.011495423           34395475      branch-misses                    #    0.57% of all branches             (66.64%)
+     7.011495423                                                                                        
+     7.011495423                                                   #     22.3 percent of slots  frontend_bound  (66.67%)
+     7.011495423                                                   #      1.2 percent of slots  bad_speculation  (16.69%)
+     8.013271582           15998.20 msec task-clock                       #   15.998 CPUs utilized             
+     8.013271582                538      context-switches                 #   33.629 /sec                      
+     8.013271582                  0      cpu-migrations                   #    0.000 /sec                      
+     8.013271582                  0      page-faults                      #    0.000 /sec                      
+     8.013271582        34006033618      cycles                           #    2.126 GHz                         (33.38%)
+     8.013271582        39418518950      instructions                     #    1.16  insn per cycle              (33.31%)
+     8.013271582         6037457135      branches                         #  377.383 M/sec                       (49.98%)
+     8.013271582           34422341      branch-misses                    #    0.57% of all branches             (66.64%)
+     8.013271582                                                                                        
+     8.013271582                                                   #     22.3 percent of slots  frontend_bound  (66.62%)
+     8.013271582                                                   #      1.2 percent of slots  bad_speculation  (16.71%)
+     9.014817654           15992.67 msec task-clock                       #   15.993 CPUs utilized             
+     9.014817654                603      context-switches                 #   37.705 /sec                      
+     9.014817654                  0      cpu-migrations                   #    0.000 /sec                      
+     9.014817654                  0      page-faults                      #    0.000 /sec                      
+     9.014817654        34051281551      cycles                           #    2.129 GHz                         (33.37%)
+     9.014817654        39334063291      instructions                     #    1.16  insn per cycle              (33.36%)
+     9.014817654         6032185541      branches                         #  377.184 M/sec                       (50.02%)
+     9.014817654           34438284      branch-misses                    #    0.57% of all branches             (66.66%)
+     9.014817654                                                                                        
+     9.014817654                                                   #     22.4 percent of slots  frontend_bound  (66.63%)
+     9.014817654                                                   #      1.2 percent of slots  bad_speculation  (16.69%)
+    10.016496419           15995.96 msec task-clock                       #   15.996 CPUs utilized             
+    10.016496419                556      context-switches                 #   34.759 /sec                      
+    10.016496419                  0      cpu-migrations                   #    0.000 /sec                      
+    10.016496419                  0      page-faults                      #    0.000 /sec                      
+    10.016496419        33927449530      cycles                           #    2.121 GHz                         (33.33%)
+    10.016496419        39424492843      instructions                     #    1.16  insn per cycle              (33.34%)
+    10.016496419         6041533965      branches                         #  377.691 M/sec                       (49.99%)
+    10.016496419           34392877      branch-misses                    #    0.57% of all branches             (66.63%)
+    10.016496419                                                                                        
+    10.016496419                                                   #     22.3 percent of slots  frontend_bound  (66.67%)
+    10.016496419                                                   #      1.2 percent of slots  bad_speculation  (16.69%)
+    11.018052545           15995.77 msec task-clock                       #   15.996 CPUs utilized             
+    11.018052545                513      context-switches                 #   32.071 /sec                      
+    11.018052545                  0      cpu-migrations                   #    0.000 /sec                      
+    11.018052545                  0      page-faults                      #    0.000 /sec                      
+    11.018052545        34058519182      cycles                           #    2.129 GHz                         (33.37%)
+    11.018052545        39247663617      instructions                     #    1.15  insn per cycle              (33.36%)
+    11.018052545         6028224418      branches                         #  376.864 M/sec                       (50.02%)
+    11.018052545           34376983      branch-misses                    #    0.57% of all branches             (66.66%)
+    11.018052545                                                                                        
+    11.018052545                                                   #     22.3 percent of slots  frontend_bound  (66.63%)
+    11.018052545                                                   #      1.2 percent of slots  bad_speculation  (16.70%)
+    12.019580200           15993.46 msec task-clock                       #   15.993 CPUs utilized             
+    12.019580200                569      context-switches                 #   35.577 /sec                      
+    12.019580200                  2      cpu-migrations                   #    0.125 /sec                      
+    12.019580200                  0      page-faults                      #    0.000 /sec                      
+    12.019580200        34010871030      cycles                           #    2.127 GHz                         (33.36%)
+    12.019580200        39348839001      instructions                     #    1.16  insn per cycle              (33.32%)
+    12.019580200         6048284034      branches                         #  378.172 M/sec                       (49.96%)
+    12.019580200           34364494      branch-misses                    #    0.57% of all branches             (66.61%)
+    12.019580200                                                                                        
+    12.019580200                                                   #     22.3 percent of slots  frontend_bound  (66.64%)
+    12.019580200                                                   #      1.2 percent of slots  bad_speculation  (16.72%)
+    13.021346966           15995.18 msec task-clock                       #   15.995 CPUs utilized             
+    13.021346966                582      context-switches                 #   36.386 /sec                      
+    13.021346966                  0      cpu-migrations                   #    0.000 /sec                      
+    13.021346966                  0      page-faults                      #    0.000 /sec                      
+    13.021346966        33954745339      cycles                           #    2.123 GHz                         (33.36%)
+    13.021346966        39556404655      instructions                     #    1.16  insn per cycle              (33.35%)
+    13.021346966         6065337450      branches                         #  379.198 M/sec                       (50.00%)
+    13.021346966           34383024      branch-misses                    #    0.57% of all branches             (66.66%)
+    13.021346966                                                                                        
+    13.021346966                                                   #     22.3 percent of slots  frontend_bound  (66.64%)
+    13.021346966                                                   #      1.2 percent of slots  bad_speculation  (16.69%)
+    14.022935080           15997.31 msec task-clock                       #   15.997 CPUs utilized             
+    14.022935080                552      context-switches                 #   34.506 /sec                      
+    14.022935080                  0      cpu-migrations                   #    0.000 /sec                      
+    14.022935080                  0      page-faults                      #    0.000 /sec                      
+    14.022935080        33949916475      cycles                           #    2.122 GHz                         (33.32%)
+    14.022935080        39487661664      instructions                     #    1.16  insn per cycle              (33.33%)
+    14.022935080         6056531951      branches                         #  378.597 M/sec                       (50.01%)
+    14.022935080           34403952      branch-misses                    #    0.57% of all branches             (66.66%)
+    14.022935080                                                                                        
+    14.022935080                                                   #     22.3 percent of slots  frontend_bound  (66.68%)
+    14.022935080                                                   #      1.2 percent of slots  bad_speculation  (16.67%)
+    15.024573362           15994.58 msec task-clock                       #   15.995 CPUs utilized             
+    15.024573362                527      context-switches                 #   32.949 /sec                      
+    15.024573362                  0      cpu-migrations                   #    0.000 /sec                      
+    15.024573362                  0      page-faults                      #    0.000 /sec                      
+    15.024573362        34004974333      cycles                           #    2.126 GHz                         (33.36%)
+    15.024573362        39464419750      instructions                     #    1.16  insn per cycle              (33.34%)
+    15.024573362         6055169817      branches                         #  378.576 M/sec                       (50.02%)
+    15.024573362           34387932      branch-misses                    #    0.57% of all branches             (66.67%)
+    15.024573362                                                                                        
+    15.024573362                                                   #     22.3 percent of slots  frontend_bound  (66.64%)
+    15.024573362                                                   #      1.2 percent of slots  bad_speculation  (16.71%)
+    16.026303123           15995.81 msec task-clock                       #   15.996 CPUs utilized             
+    16.026303123                590      context-switches                 #   36.885 /sec                      
+    16.026303123                  0      cpu-migrations                   #    0.000 /sec                      
+    16.026303123                  0      page-faults                      #    0.000 /sec                      
+    16.026303123        33954150218      cycles                           #    2.123 GHz                         (33.31%)
+    16.026303123        39400741620      instructions                     #    1.16  insn per cycle              (33.31%)
+    16.026303123         6048044841      branches                         #  378.102 M/sec                       (50.00%)
+    16.026303123           34427842      branch-misses                    #    0.57% of all branches             (66.67%)
+    16.026303123                                                                                        
+    16.026303123                                                   #     22.3 percent of slots  frontend_bound  (66.69%)
+    16.026303123                                                   #      1.2 percent of slots  bad_speculation  (16.69%)
+    17.028512544           16007.16 msec task-clock                       #   16.007 CPUs utilized             
+    17.028512544                505      context-switches                 #   31.548 /sec                      
+    17.028512544                  0      cpu-migrations                   #    0.000 /sec                      
+    17.028512544                  0      page-faults                      #    0.000 /sec                      
+    17.028512544        33952162701      cycles                           #    2.121 GHz                         (33.36%)
+    17.028512544        39446483504      instructions                     #    1.16  insn per cycle              (33.34%)
+    17.028512544         6053556758      branches                         #  378.178 M/sec                       (50.00%)
+    17.028512544           34275299      branch-misses                    #    0.57% of all branches             (66.63%)
+    17.028512544                                                                                        
+    17.028512544                                                   #     22.3 percent of slots  frontend_bound  (66.64%)
+    17.028512544                                                   #      1.2 percent of slots  bad_speculation  (16.69%)
+    18.030253558           15999.95 msec task-clock                       #   16.000 CPUs utilized             
+    18.030253558                504      context-switches                 #   31.500 /sec                      
+    18.030253558                  1      cpu-migrations                   #    0.063 /sec                      
+    18.030253558                  0      page-faults                      #    0.000 /sec                      
+    18.030253558        33975974337      cycles                           #    2.124 GHz                         (33.35%)
+    18.030253558        39566442788      instructions                     #    1.16  insn per cycle              (33.32%)
+    18.030253558         6067996936      branches                         #  379.251 M/sec                       (50.00%)
+    18.030253558           34287016      branch-misses                    #    0.57% of all branches             (66.66%)
+    18.030253558                                                                                        
+    18.030253558                                                   #     22.4 percent of slots  frontend_bound  (66.65%)
+    18.030253558                                                   #      1.2 percent of slots  bad_speculation  (16.71%)
+    19.032365185           16005.28 msec task-clock                       #   16.005 CPUs utilized             
+    19.032365185                505      context-switches                 #   31.552 /sec                      
+    19.032365185                  0      cpu-migrations                   #    0.000 /sec                      
+    19.032365185                  0      page-faults                      #    0.000 /sec                      
+    19.032365185        33985555001      cycles                           #    2.123 GHz                         (33.36%)
+    19.032365185        39451273692      instructions                     #    1.16  insn per cycle              (33.36%)
+    19.032365185         6055544372      branches                         #  378.347 M/sec                       (50.02%)
+    19.032365185           34192977      branch-misses                    #    0.56% of all branches             (66.67%)
+    19.032365185                                                                                        
+    19.032365185                                                   #     22.5 percent of slots  frontend_bound  (66.64%)
+    19.032365185                                                   #      1.2 percent of slots  bad_speculation  (16.67%)
+    20.033928134           15994.78 msec task-clock                       #   15.995 CPUs utilized             
+    20.033928134                609      context-switches                 #   38.075 /sec                      
+    20.033928134                  0      cpu-migrations                   #    0.000 /sec                      
+    20.033928134                  0      page-faults                      #    0.000 /sec                      
+    20.033928134        33927565698      cycles                           #    2.121 GHz                         (33.31%)
+    20.033928134        39519040056      instructions                     #    1.16  insn per cycle              (33.31%)
+    20.033928134         6050462531      branches                         #  378.277 M/sec                       (50.01%)
+    20.033928134           34269958      branch-misses                    #    0.57% of all branches             (66.67%)
+    20.033928134                                                                                        
+    20.033928134                                                   #     22.5 percent of slots  frontend_bound  (66.69%)
+    20.033928134                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    21.035549286           15996.68 msec task-clock                       #   15.997 CPUs utilized             
+    21.035549286                511      context-switches                 #   31.944 /sec                      
+    21.035549286                  0      cpu-migrations                   #    0.000 /sec                      
+    21.035549286                  0      page-faults                      #    0.000 /sec                      
+    21.035549286        33977607266      cycles                           #    2.124 GHz                         (33.34%)
+    21.035549286        39471463446      instructions                     #    1.16  insn per cycle              (33.36%)
+    21.035549286         6051088403      branches                         #  378.272 M/sec                       (50.05%)
+    21.035549286           34207590      branch-misses                    #    0.57% of all branches             (66.67%)
+    21.035549286                                                                                        
+    21.035549286                                                   #     22.4 percent of slots  frontend_bound  (66.67%)
+    21.035549286                                                   #      1.2 percent of slots  bad_speculation  (16.69%)
+    22.037243676           15997.62 msec task-clock                       #   15.998 CPUs utilized             
+    22.037243676                551      context-switches                 #   34.443 /sec                      
+    22.037243676                  1      cpu-migrations                   #    0.063 /sec                      
+    22.037243676                  0      page-faults                      #    0.000 /sec                      
+    22.037243676        33872741546      cycles                           #    2.117 GHz                         (33.35%)
+    22.037243676        39323597877      instructions                     #    1.16  insn per cycle              (33.35%)
+    22.037243676         6041237784      branches                         #  377.634 M/sec                       (50.03%)
+    22.037243676           34290659      branch-misses                    #    0.57% of all branches             (66.66%)
+    22.037243676                                                                                        
+    22.037243676                                                   #     22.5 percent of slots  frontend_bound  (66.65%)
+    22.037243676                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    23.038784124           15994.87 msec task-clock                       #   15.995 CPUs utilized             
+    23.038784124                564      context-switches                 #   35.261 /sec                      
+    23.038784124                  0      cpu-migrations                   #    0.000 /sec                      
+    23.038784124                  0      page-faults                      #    0.000 /sec                      
+    23.038784124        33894405788      cycles                           #    2.119 GHz                         (33.34%)
+    23.038784124        39240905576      instructions                     #    1.16  insn per cycle              (33.31%)
+    23.038784124         6013139009      branches                         #  375.942 M/sec                       (49.97%)
+    23.038784124           34164080      branch-misses                    #    0.57% of all branches             (66.63%)
+    23.038784124                                                                                        
+    23.038784124                                                   #     22.5 percent of slots  frontend_bound  (66.66%)
+    23.038784124                                                   #      1.2 percent of slots  bad_speculation  (16.72%)
+    24.040487521           15998.74 msec task-clock                       #   15.999 CPUs utilized             
+    24.040487521                546      context-switches                 #   34.128 /sec                      
+    24.040487521                  0      cpu-migrations                   #    0.000 /sec                      
+    24.040487521                  0      page-faults                      #    0.000 /sec                      
+    24.040487521        33903697282      cycles                           #    2.119 GHz                         (33.37%)
+    24.040487521        39315851446      instructions                     #    1.16  insn per cycle              (33.36%)
+    24.040487521         6029922765      branches                         #  376.900 M/sec                       (50.01%)
+    24.040487521           34167106      branch-misses                    #    0.57% of all branches             (66.65%)
+    24.040487521                                                                                        
+    24.040487521                                                   #     22.5 percent of slots  frontend_bound  (66.63%)
+    24.040487521                                                   #      1.2 percent of slots  bad_speculation  (16.71%)
+    25.042311555           15999.00 msec task-clock                       #   15.999 CPUs utilized             
+    25.042311555                543      context-switches                 #   33.940 /sec                      
+    25.042311555                  0      cpu-migrations                   #    0.000 /sec                      
+    25.042311555                  0      page-faults                      #    0.000 /sec                      
+    25.042311555        33915876923      cycles                           #    2.120 GHz                         (33.37%)
+    25.042311555        39252179420      instructions                     #    1.16  insn per cycle              (33.34%)
+    25.042311555         6032192774      branches                         #  377.036 M/sec                       (49.99%)
+    25.042311555           34168203      branch-misses                    #    0.57% of all branches             (66.65%)
+    25.042311555                                                                                        
+    25.042311555                                                   #     22.5 percent of slots  frontend_bound  (66.64%)
+    25.042311555                                                   #      1.2 percent of slots  bad_speculation  (16.69%)
+    26.044518061           16008.66 msec task-clock                       #   16.009 CPUs utilized             
+    26.044518061                516      context-switches                 #   32.233 /sec                      
+    26.044518061                  0      cpu-migrations                   #    0.000 /sec                      
+    26.044518061                  0      page-faults                      #    0.000 /sec                      
+    26.044518061        33954117256      cycles                           #    2.121 GHz                         (33.36%)
+    26.044518061        39274716314      instructions                     #    1.16  insn per cycle              (33.29%)
+    26.044518061         6033452979      branches                         #  376.887 M/sec                       (49.95%)
+    26.044518061           34118509      branch-misses                    #    0.57% of all branches             (66.61%)
+    26.044518061                                                                                        
+    26.044518061                                                   #     22.5 percent of slots  frontend_bound  (66.64%)
+    26.044518061                                                   #      1.2 percent of slots  bad_speculation  (16.73%)
+#           time             counts unit events
+    27.046187724           15997.55 msec task-clock                       #   15.998 CPUs utilized             
+    27.046187724                560      context-switches                 #   35.005 /sec                      
+    27.046187724                  0      cpu-migrations                   #    0.000 /sec                      
+    27.046187724                  0      page-faults                      #    0.000 /sec                      
+    27.046187724        33900806195      cycles                           #    2.119 GHz                         (33.39%)
+    27.046187724        39361782150      instructions                     #    1.16  insn per cycle              (33.33%)
+    27.046187724         6045134655      branches                         #  377.879 M/sec                       (50.01%)
+    27.046187724           34245896      branch-misses                    #    0.57% of all branches             (66.65%)
+    27.046187724                                                                                        
+    27.046187724                                                   #     22.5 percent of slots  frontend_bound  (66.61%)
+    27.046187724                                                   #      1.2 percent of slots  bad_speculation  (16.70%)
+    28.047756909           15998.75 msec task-clock                       #   15.999 CPUs utilized             
+    28.047756909                521      context-switches                 #   32.565 /sec                      
+    28.047756909                  0      cpu-migrations                   #    0.000 /sec                      
+    28.047756909                  0      page-faults                      #    0.000 /sec                      
+    28.047756909        33867731971      cycles                           #    2.117 GHz                         (33.36%)
+    28.047756909        39225006161      instructions                     #    1.16  insn per cycle              (33.39%)
+    28.047756909         6025258410      branches                         #  376.608 M/sec                       (50.04%)
+    28.047756909           34084911      branch-misses                    #    0.57% of all branches             (66.68%)
+    28.047756909                                                                                        
+    28.047756909                                                   #     22.5 percent of slots  frontend_bound  (66.64%)
+    28.047756909                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    29.049377829           15999.49 msec task-clock                       #   15.999 CPUs utilized             
+    29.049377829                537      context-switches                 #   33.564 /sec                      
+    29.049377829                  0      cpu-migrations                   #    0.000 /sec                      
+    29.049377829                  0      page-faults                      #    0.000 /sec                      
+    29.049377829        33897236443      cycles                           #    2.119 GHz                         (33.35%)
+    29.049377829        39355046390      instructions                     #    1.16  insn per cycle              (33.31%)
+    29.049377829         6037990597      branches                         #  377.386 M/sec                       (49.97%)
+    29.049377829           34158092      branch-misses                    #    0.57% of all branches             (66.64%)
+    29.049377829                                                                                        
+    29.049377829                                                   #     22.5 percent of slots  frontend_bound  (66.65%)
+    29.049377829                                                   #      1.2 percent of slots  bad_speculation  (16.69%)
+    30.050966305           15994.58 msec task-clock                       #   15.995 CPUs utilized             
+    30.050966305                528      context-switches                 #   33.011 /sec                      
+    30.050966305                  0      cpu-migrations                   #    0.000 /sec                      
+    30.050966305                  0      page-faults                      #    0.000 /sec                      
+    30.050966305        33875815560      cycles                           #    2.118 GHz                         (33.34%)
+    30.050966305        39384800070      instructions                     #    1.16  insn per cycle              (33.36%)
+    30.050966305         6045474585      branches                         #  377.970 M/sec                       (50.05%)
+    30.050966305           34229429      branch-misses                    #    0.57% of all branches             (66.70%)
+    30.050966305                                                                                        
+    30.050966305                                                   #     22.6 percent of slots  frontend_bound  (66.66%)
+    30.050966305                                                   #      1.2 percent of slots  bad_speculation  (16.66%)
+    31.052498878           15996.86 msec task-clock                       #   15.997 CPUs utilized             
+    31.052498878                525      context-switches                 #   32.819 /sec                      
+    31.052498878                  0      cpu-migrations                   #    0.000 /sec                      
+    31.052498878                  0      page-faults                      #    0.000 /sec                      
+    31.052498878        33917817961      cycles                           #    2.120 GHz                         (33.38%)
+    31.052498878        39484174707      instructions                     #    1.16  insn per cycle              (33.33%)
+    31.052498878         6052740125      branches                         #  378.371 M/sec                       (49.95%)
+    31.052498878           34299097      branch-misses                    #    0.57% of all branches             (66.58%)
+    31.052498878                                                                                        
+    31.052498878                                                   #     22.6 percent of slots  frontend_bound  (66.62%)
+    31.052498878                                                   #      1.2 percent of slots  bad_speculation  (16.72%)
+    32.053995057           15997.34 msec task-clock                       #   15.997 CPUs utilized             
+    32.053995057                546      context-switches                 #   34.131 /sec                      
+    32.053995057                  0      cpu-migrations                   #    0.000 /sec                      
+    32.053995057                  0      page-faults                      #    0.000 /sec                      
+    32.053995057        33883226223      cycles                           #    2.118 GHz                         (33.33%)
+    32.053995057        39530367199      instructions                     #    1.17  insn per cycle              (33.28%)
+    32.053995057         6058726267      branches                         #  378.733 M/sec                       (49.96%)
+    32.053995057           34296474      branch-misses                    #    0.57% of all branches             (66.65%)
+    32.053995057                                                                                        
+    32.053995057                                                   #     22.6 percent of slots  frontend_bound  (66.67%)
+    32.053995057                                                   #      1.2 percent of slots  bad_speculation  (16.70%)
+    33.055515150           15995.37 msec task-clock                       #   15.995 CPUs utilized             
+    33.055515150                531      context-switches                 #   33.197 /sec                      
+    33.055515150                  2      cpu-migrations                   #    0.125 /sec                      
+    33.055515150                  0      page-faults                      #    0.000 /sec                      
+    33.055515150        33863112451      cycles                           #    2.117 GHz                         (33.34%)
+    33.055515150        39281628314      instructions                     #    1.16  insn per cycle              (33.34%)
+    33.055515150         6036948564      branches                         #  377.418 M/sec                       (49.98%)
+    33.055515150           34261172      branch-misses                    #    0.57% of all branches             (66.66%)
+    33.055515150                                                                                        
+    33.055515150                                                   #     22.6 percent of slots  frontend_bound  (66.66%)
+    33.055515150                                                   #      1.2 percent of slots  bad_speculation  (16.67%)
+    34.057018264           15995.79 msec task-clock                       #   15.996 CPUs utilized             
+    34.057018264                561      context-switches                 #   35.072 /sec                      
+    34.057018264                  0      cpu-migrations                   #    0.000 /sec                      
+    34.057018264                  0      page-faults                      #    0.000 /sec                      
+    34.057018264        33712732601      cycles                           #    2.108 GHz                         (33.34%)
+    34.057018264        39273854299      instructions                     #    1.16  insn per cycle              (33.35%)
+    34.057018264         6023764824      branches                         #  376.584 M/sec                       (50.05%)
+    34.057018264           34211796      branch-misses                    #    0.57% of all branches             (66.67%)
+    34.057018264                                                                                        
+    34.057018264                                                   #     22.6 percent of slots  frontend_bound  (66.66%)
+    34.057018264                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    35.058487724           15997.80 msec task-clock                       #   15.998 CPUs utilized             
+    35.058487724                514      context-switches                 #   32.129 /sec                      
+    35.058487724                  0      cpu-migrations                   #    0.000 /sec                      
+    35.058487724                  0      page-faults                      #    0.000 /sec                      
+    35.058487724        33823867142      cycles                           #    2.114 GHz                         (33.34%)
+    35.058487724        39376800791      instructions                     #    1.16  insn per cycle              (33.32%)
+    35.058487724         6028690953      branches                         #  376.845 M/sec                       (49.99%)
+    35.058487724           34223988      branch-misses                    #    0.57% of all branches             (66.65%)
+    35.058487724                                                                                        
+    35.058487724                                                   #     22.6 percent of slots  frontend_bound  (66.65%)
+    35.058487724                                                   #      1.2 percent of slots  bad_speculation  (16.69%)
+    36.060477615           16001.59 msec task-clock                       #   16.002 CPUs utilized             
+    36.060477615                601      context-switches                 #   37.559 /sec                      
+    36.060477615                  0      cpu-migrations                   #    0.000 /sec                      
+    36.060477615                  0      page-faults                      #    0.000 /sec                      
+    36.060477615        33761046217      cycles                           #    2.110 GHz                         (33.33%)
+    36.060477615        39295823151      instructions                     #    1.16  insn per cycle              (33.34%)
+    36.060477615         6016595853      branches                         #  376.000 M/sec                       (50.01%)
+    36.060477615           34227383      branch-misses                    #    0.57% of all branches             (66.67%)
+    36.060477615                                                                                        
+    36.060477615                                                   #     22.6 percent of slots  frontend_bound  (66.68%)
+    36.060477615                                                   #      1.2 percent of slots  bad_speculation  (16.67%)
+    37.061976949           15997.24 msec task-clock                       #   15.997 CPUs utilized             
+    37.061976949                544      context-switches                 #   34.006 /sec                      
+    37.061976949                  0      cpu-migrations                   #    0.000 /sec                      
+    37.061976949                  0      page-faults                      #    0.000 /sec                      
+    37.061976949        33751167552      cycles                           #    2.110 GHz                         (33.33%)
+    37.061976949        39302170738      instructions                     #    1.16  insn per cycle              (33.35%)
+    37.061976949         6009160254      branches                         #  375.637 M/sec                       (49.99%)
+    37.061976949           34162655      branch-misses                    #    0.57% of all branches             (66.65%)
+    37.061976949                                                                                        
+    37.061976949                                                   #     22.7 percent of slots  frontend_bound  (66.67%)
+    37.061976949                                                   #      1.2 percent of slots  bad_speculation  (16.67%)
+    38.063491246           15996.99 msec task-clock                       #   15.997 CPUs utilized             
+    38.063491246                514      context-switches                 #   32.131 /sec                      
+    38.063491246                  0      cpu-migrations                   #    0.000 /sec                      
+    38.063491246                  0      page-faults                      #    0.000 /sec                      
+    38.063491246        33805656914      cycles                           #    2.113 GHz                         (33.34%)
+    38.063491246        39317447396      instructions                     #    1.16  insn per cycle              (33.33%)
+    38.063491246         6014588885      branches                         #  375.983 M/sec                       (50.00%)
+    38.063491246           34197199      branch-misses                    #    0.57% of all branches             (66.64%)
+    38.063491246                                                                                        
+    38.063491246                                                   #     22.6 percent of slots  frontend_bound  (66.67%)
+    38.063491246                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    39.065196049           16001.99 msec task-clock                       #   16.002 CPUs utilized             
+    39.065196049                508      context-switches                 #   31.746 /sec                      
+    39.065196049                  0      cpu-migrations                   #    0.000 /sec                      
+    39.065196049                  0      page-faults                      #    0.000 /sec                      
+    39.065196049        33733573444      cycles                           #    2.108 GHz                         (33.29%)
+    39.065196049        39205260373      instructions                     #    1.16  insn per cycle              (33.27%)
+    39.065196049         6016312953      branches                         #  375.973 M/sec                       (49.98%)
+    39.065196049           34211039      branch-misses                    #    0.57% of all branches             (66.66%)
+    39.065196049                                                                                        
+    39.065196049                                                   #     22.6 percent of slots  frontend_bound  (66.70%)
+    39.065196049                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    40.066679728           15997.89 msec task-clock                       #   15.998 CPUs utilized             
+    40.066679728                536      context-switches                 #   33.504 /sec                      
+    40.066679728                  0      cpu-migrations                   #    0.000 /sec                      
+    40.066679728                  0      page-faults                      #    0.000 /sec                      
+    40.066679728        33777470747      cycles                           #    2.111 GHz                         (33.30%)
+    40.066679728        39334185955      instructions                     #    1.16  insn per cycle              (33.31%)
+    40.066679728         6026302201      branches                         #  376.694 M/sec                       (50.01%)
+    40.066679728           34197138      branch-misses                    #    0.57% of all branches             (66.67%)
+    40.066679728                                                                                        
+    40.066679728                                                   #     22.6 percent of slots  frontend_bound  (66.70%)
+    40.066679728                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    41.068343749           15997.68 msec task-clock                       #   15.998 CPUs utilized             
+    41.068343749                571      context-switches                 #   35.693 /sec                      
+    41.068343749                  0      cpu-migrations                   #    0.000 /sec                      
+    41.068343749                  0      page-faults                      #    0.000 /sec                      
+    41.068343749        33721271546      cycles                           #    2.108 GHz                         (33.37%)
+    41.068343749        39266909198      instructions                     #    1.16  insn per cycle              (33.33%)
+    41.068343749         6012592164      branches                         #  375.842 M/sec                       (50.00%)
+    41.068343749           34191934      branch-misses                    #    0.57% of all branches             (66.64%)
+    41.068343749                                                                                        
+    41.068343749                                                   #     22.6 percent of slots  frontend_bound  (66.64%)
+    41.068343749                                                   #      1.2 percent of slots  bad_speculation  (16.72%)
+    42.069802912           15992.92 msec task-clock                       #   15.993 CPUs utilized             
+    42.069802912                591      context-switches                 #   36.954 /sec                      
+    42.069802912                  0      cpu-migrations                   #    0.000 /sec                      
+    42.069802912                  0      page-faults                      #    0.000 /sec                      
+    42.069802912        33757265191      cycles                           #    2.111 GHz                         (33.34%)
+    42.069802912        39337580298      instructions                     #    1.17  insn per cycle              (33.33%)
+    42.069802912         6024436020      branches                         #  376.694 M/sec                       (49.98%)
+    42.069802912           34232062      branch-misses                    #    0.57% of all branches             (66.62%)
+    42.069802912                                                                                        
+    42.069802912                                                   #     22.6 percent of slots  frontend_bound  (66.66%)
+    42.069802912                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    43.071420266           15998.60 msec task-clock                       #   15.999 CPUs utilized             
+    43.071420266                562      context-switches                 #   35.128 /sec                      
+    43.071420266                  0      cpu-migrations                   #    0.000 /sec                      
+    43.071420266                  0      page-faults                      #    0.000 /sec                      
+    43.071420266        33700881800      cycles                           #    2.106 GHz                         (33.33%)
+    43.071420266        39187103464      instructions                     #    1.16  insn per cycle              (33.35%)
+    43.071420266         6026479632      branches                         #  376.688 M/sec                       (50.02%)
+    43.071420266           34212160      branch-misses                    #    0.57% of all branches             (66.66%)
+    43.071420266                                                                                        
+    43.071420266                                                   #     22.6 percent of slots  frontend_bound  (66.67%)
+    43.071420266                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    44.072915489           15998.19 msec task-clock                       #   15.998 CPUs utilized             
+    44.072915489                552      context-switches                 #   34.504 /sec                      
+    44.072915489                  0      cpu-migrations                   #    0.000 /sec                      
+    44.072915489                  0      page-faults                      #    0.000 /sec                      
+    44.072915489        33813483653      cycles                           #    2.114 GHz                         (33.33%)
+    44.072915489        39305993472      instructions                     #    1.16  insn per cycle              (33.34%)
+    44.072915489         6022086493      branches                         #  376.423 M/sec                       (49.99%)
+    44.072915489           34225094      branch-misses                    #    0.57% of all branches             (66.66%)
+    44.072915489                                                                                        
+    44.072915489                                                   #     22.6 percent of slots  frontend_bound  (66.67%)
+    44.072915489                                                   #      1.2 percent of slots  bad_speculation  (16.70%)
+    45.074534753           15996.27 msec task-clock                       #   15.996 CPUs utilized             
+    45.074534753                544      context-switches                 #   34.008 /sec                      
+    45.074534753                  0      cpu-migrations                   #    0.000 /sec                      
+    45.074534753                  0      page-faults                      #    0.000 /sec                      
+    45.074534753        33800251463      cycles                           #    2.113 GHz                         (33.29%)
+    45.074534753        39321700119      instructions                     #    1.16  insn per cycle              (33.30%)
+    45.074534753         6020667398      branches                         #  376.379 M/sec                       (49.97%)
+    45.074534753           34208627      branch-misses                    #    0.57% of all branches             (66.64%)
+    45.074534753                                                                                        
+    45.074534753                                                   #     22.6 percent of slots  frontend_bound  (66.71%)
+    45.074534753                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    46.076190390           15998.26 msec task-clock                       #   15.998 CPUs utilized             
+    46.076190390                570      context-switches                 #   35.629 /sec                      
+    46.076190390                  0      cpu-migrations                   #    0.000 /sec                      
+    46.076190390                  0      page-faults                      #    0.000 /sec                      
+    46.076190390        33737936929      cycles                           #    2.109 GHz                         (33.37%)
+    46.076190390        39252192828      instructions                     #    1.16  insn per cycle              (33.35%)
+    46.076190390         6016355067      branches                         #  376.063 M/sec                       (50.03%)
+    46.076190390           34198658      branch-misses                    #    0.57% of all branches             (66.67%)
+    46.076190390                                                                                        
+    46.076190390                                                   #     22.7 percent of slots  frontend_bound  (66.63%)
+    46.076190390                                                   #      1.2 percent of slots  bad_speculation  (16.69%)
+    47.077641767           15995.45 msec task-clock                       #   15.995 CPUs utilized             
+    47.077641767                560      context-switches                 #   35.010 /sec                      
+    47.077641767                  0      cpu-migrations                   #    0.000 /sec                      
+    47.077641767                  0      page-faults                      #    0.000 /sec                      
+    47.077641767        33790949304      cycles                           #    2.113 GHz                         (33.32%)
+    47.077641767        39293979909      instructions                     #    1.16  insn per cycle              (33.30%)
+    47.077641767         6021786635      branches                         #  376.469 M/sec                       (49.97%)
+    47.077641767           34252480      branch-misses                    #    0.57% of all branches             (66.65%)
+    47.077641767                                                                                        
+    47.077641767                                                   #     22.6 percent of slots  frontend_bound  (66.67%)
+    47.077641767                                                   #      1.2 percent of slots  bad_speculation  (16.70%)
+    48.079259719           16000.59 msec task-clock                       #   16.001 CPUs utilized             
+    48.079259719                527      context-switches                 #   32.936 /sec                      
+    48.079259719                  0      cpu-migrations                   #    0.000 /sec                      
+    48.079259719                  0      page-faults                      #    0.000 /sec                      
+    48.079259719        33794482263      cycles                           #    2.112 GHz                         (33.35%)
+    48.079259719        39290556598      instructions                     #    1.16  insn per cycle              (33.35%)
+    48.079259719         6020342027      branches                         #  376.257 M/sec                       (50.01%)
+    48.079259719           34480383      branch-misses                    #    0.57% of all branches             (66.66%)
+    48.079259719                                                                                        
+    48.079259719                                                   #     22.6 percent of slots  frontend_bound  (66.65%)
+    48.079259719                                                   #      1.2 percent of slots  bad_speculation  (16.71%)
+    49.080745603           15994.43 msec task-clock                       #   15.994 CPUs utilized             
+    49.080745603                594      context-switches                 #   37.138 /sec                      
+    49.080745603                  0      cpu-migrations                   #    0.000 /sec                      
+    49.080745603                  0      page-faults                      #    0.000 /sec                      
+    49.080745603        33781155106      cycles                           #    2.112 GHz                         (33.36%)
+    49.080745603        39191370038      instructions                     #    1.16  insn per cycle              (33.33%)
+    49.080745603         6015710806      branches                         #  376.113 M/sec                       (50.00%)
+    49.080745603           34525986      branch-misses                    #    0.57% of all branches             (66.66%)
+    49.080745603                                                                                        
+    49.080745603                                                   #     22.6 percent of slots  frontend_bound  (66.64%)
+    49.080745603                                                   #      1.2 percent of slots  bad_speculation  (16.69%)
+    50.082382655           16000.13 msec task-clock                       #   16.000 CPUs utilized             
+    50.082382655                562      context-switches                 #   35.125 /sec                      
+    50.082382655                  0      cpu-migrations                   #    0.000 /sec                      
+    50.082382655                  0      page-faults                      #    0.000 /sec                      
+    50.082382655        33843262114      cycles                           #    2.115 GHz                         (33.32%)
+    50.082382655        39310086525      instructions                     #    1.16  insn per cycle              (33.31%)
+    50.082382655         6030428219      branches                         #  376.899 M/sec                       (49.96%)
+    50.082382655           34241988      branch-misses                    #    0.57% of all branches             (66.64%)
+    50.082382655                                                                                        
+    50.082382655                                                   #     22.6 percent of slots  frontend_bound  (66.68%)
+    50.082382655                                                   #      1.2 percent of slots  bad_speculation  (16.67%)
+    51.084369131           16000.05 msec task-clock                       #   16.000 CPUs utilized             
+    51.084369131                584      context-switches                 #   36.500 /sec                      
+    51.084369131                  0      cpu-migrations                   #    0.000 /sec                      
+    51.084369131                  0      page-faults                      #    0.000 /sec                      
+    51.084369131        33825357195      cycles                           #    2.114 GHz                         (33.36%)
+    51.084369131        39314309103      instructions                     #    1.16  insn per cycle              (33.33%)
+    51.084369131         6021467693      branches                         #  376.341 M/sec                       (50.00%)
+    51.084369131           34193844      branch-misses                    #    0.57% of all branches             (66.66%)
+    51.084369131                                                                                        
+    51.084369131                                                   #     22.6 percent of slots  frontend_bound  (66.64%)
+    51.084369131                                                   #      1.2 percent of slots  bad_speculation  (16.70%)
+    52.085864274           15996.14 msec task-clock                       #   15.996 CPUs utilized             
+    52.085864274                563      context-switches                 #   35.196 /sec                      
+    52.085864274                  0      cpu-migrations                   #    0.000 /sec                      
+    52.085864274                  0      page-faults                      #    0.000 /sec                      
+    52.085864274        33781783006      cycles                           #    2.112 GHz                         (33.35%)
+    52.085864274        39358553712      instructions                     #    1.17  insn per cycle              (33.31%)
+    52.085864274         6032806405      branches                         #  377.141 M/sec                       (49.95%)
+    52.085864274           34234801      branch-misses                    #    0.57% of all branches             (66.61%)
+    52.085864274                                                                                        
+    52.085864274                                                   #     22.6 percent of slots  frontend_bound  (66.65%)
+    52.085864274                                                   #      1.2 percent of slots  bad_speculation  (16.72%)
+#           time             counts unit events
+    53.087989314           16006.23 msec task-clock                       #   16.006 CPUs utilized             
+    53.087989314                550      context-switches                 #   34.362 /sec                      
+    53.087989314                  0      cpu-migrations                   #    0.000 /sec                      
+    53.087989314                  0      page-faults                      #    0.000 /sec                      
+    53.087989314        33821941663      cycles                           #    2.113 GHz                         (33.33%)
+    53.087989314        39317945568      instructions                     #    1.16  insn per cycle              (33.29%)
+    53.087989314         6024799390      branches                         #  376.403 M/sec                       (49.99%)
+    53.087989314           34228494      branch-misses                    #    0.57% of all branches             (66.66%)
+    53.087989314                                                                                        
+    53.087989314                                                   #     22.6 percent of slots  frontend_bound  (66.67%)
+    53.087989314                                                   #      1.2 percent of slots  bad_speculation  (16.69%)
+    54.089501444           15997.33 msec task-clock                       #   15.997 CPUs utilized             
+    54.089501444                538      context-switches                 #   33.631 /sec                      
+    54.089501444                  0      cpu-migrations                   #    0.000 /sec                      
+    54.089501444                  0      page-faults                      #    0.000 /sec                      
+    54.089501444        33727073295      cycles                           #    2.108 GHz                         (33.33%)
+    54.089501444        39274090053      instructions                     #    1.16  insn per cycle              (33.32%)
+    54.089501444         6029693287      branches                         #  376.919 M/sec                       (50.00%)
+    54.089501444           34237711      branch-misses                    #    0.57% of all branches             (66.66%)
+    54.089501444                                                                                        
+    54.089501444                                                   #     22.6 percent of slots  frontend_bound  (66.67%)
+    54.089501444                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    55.091187751           15999.83 msec task-clock                       #   16.000 CPUs utilized             
+    55.091187751                543      context-switches                 #   33.938 /sec                      
+    55.091187751                  0      cpu-migrations                   #    0.000 /sec                      
+    55.091187751                  0      page-faults                      #    0.000 /sec                      
+    55.091187751        33764505020      cycles                           #    2.110 GHz                         (33.35%)
+    55.091187751        39265766272      instructions                     #    1.16  insn per cycle              (33.31%)
+    55.091187751         6037139530      branches                         #  377.325 M/sec                       (49.97%)
+    55.091187751           34227429      branch-misses                    #    0.57% of all branches             (66.63%)
+    55.091187751                                                                                        
+    55.091187751                                                   #     22.6 percent of slots  frontend_bound  (66.65%)
+    55.091187751                                                   #      1.2 percent of slots  bad_speculation  (16.70%)
+    56.092702456           15996.14 msec task-clock                       #   15.996 CPUs utilized             
+    56.092702456                549      context-switches                 #   34.321 /sec                      
+    56.092702456                  0      cpu-migrations                   #    0.000 /sec                      
+    56.092702456                  0      page-faults                      #    0.000 /sec                      
+    56.092702456        33740176006      cycles                           #    2.109 GHz                         (33.37%)
+    56.092702456        39270759676      instructions                     #    1.16  insn per cycle              (33.33%)
+    56.092702456         6031310583      branches                         #  377.048 M/sec                       (49.98%)
+    56.092702456           34248262      branch-misses                    #    0.57% of all branches             (66.64%)
+    56.092702456                                                                                        
+    56.092702456                                                   #     22.6 percent of slots  frontend_bound  (66.63%)
+    56.092702456                                                   #      1.2 percent of slots  bad_speculation  (16.71%)
+    57.094392768           15999.37 msec task-clock                       #   15.999 CPUs utilized             
+    57.094392768                587      context-switches                 #   36.689 /sec                      
+    57.094392768                  0      cpu-migrations                   #    0.000 /sec                      
+    57.094392768                  0      page-faults                      #    0.000 /sec                      
+    57.094392768        33755826694      cycles                           #    2.110 GHz                         (33.36%)
+    57.094392768        39167252226      instructions                     #    1.16  insn per cycle              (33.35%)
+    57.094392768         6025980041      branches                         #  376.639 M/sec                       (50.01%)
+    57.094392768           34191313      branch-misses                    #    0.57% of all branches             (66.67%)
+    57.094392768                                                                                        
+    57.094392768                                                   #     22.6 percent of slots  frontend_bound  (66.64%)
+    57.094392768                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    58.096191243           15998.99 msec task-clock                       #   15.999 CPUs utilized             
+    58.096191243                554      context-switches                 #   34.627 /sec                      
+    58.096191243                  0      cpu-migrations                   #    0.000 /sec                      
+    58.096191243                  0      page-faults                      #    0.000 /sec                      
+    58.096191243        33828803863      cycles                           #    2.114 GHz                         (33.36%)
+    58.096191243        39148020945      instructions                     #    1.16  insn per cycle              (33.33%)
+    58.096191243         6016704078      branches                         #  376.068 M/sec                       (49.99%)
+    58.096191243           34109748      branch-misses                    #    0.57% of all branches             (66.65%)
+    58.096191243                                                                                        
+    58.096191243                                                   #     22.6 percent of slots  frontend_bound  (66.64%)
+    58.096191243                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    59.097703315           15995.06 msec task-clock                       #   15.995 CPUs utilized             
+    59.097703315                557      context-switches                 #   34.823 /sec                      
+    59.097703315                  0      cpu-migrations                   #    0.000 /sec                      
+    59.097703315                  0      page-faults                      #    0.000 /sec                      
+    59.097703315        33777791013      cycles                           #    2.112 GHz                         (33.33%)
+    59.097703315        39222753292      instructions                     #    1.16  insn per cycle              (33.33%)
+    59.097703315         6013043047      branches                         #  375.931 M/sec                       (50.01%)
+    59.097703315           34077558      branch-misses                    #    0.57% of all branches             (66.66%)
+    59.097703315                                                                                        
+    59.097703315                                                   #     22.6 percent of slots  frontend_bound  (66.67%)
+    59.097703315                                                   #      1.2 percent of slots  bad_speculation  (16.68%)
+    60.043164097           14501.87 msec task-clock                       #   14.502 CPUs utilized             
+    60.043164097                552      context-switches                 #   38.064 /sec                      
+    60.043164097                  1      cpu-migrations                   #    0.069 /sec                      
+    60.043164097                  2      page-faults                      #    0.138 /sec                      
+    60.043164097        30503445290      cycles                           #    2.103 GHz                         (33.38%)
+    60.043164097        35538023729      instructions                     #    1.17  insn per cycle              (33.35%)
+    60.043164097         5471605199      branches                         #  377.303 M/sec                       (50.03%)
+    60.043164097           30996555      branch-misses                    #    0.57% of all branches             (66.66%)
+    60.043164097                                                                                        
+    60.043164097                                                   #     22.6 percent of slots  frontend_bound  (66.69%)
+    60.043164097                                                   #      1.2 percent of slots  bad_speculation  (16.68%)

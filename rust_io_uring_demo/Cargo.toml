@@ -1,0 +1,10 @@
+[workspace]
+members = ["server", "client", ]
+resolver = "1"
+
+[workspace.package]
+rust-version = "1.80.0"
+edition = "2021"
+
+[profile.release]
+lto = false
